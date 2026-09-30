@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://parlorpuzzlepress.netlify.app/sitemap.xml
