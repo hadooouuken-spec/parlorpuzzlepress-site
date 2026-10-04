@@ -136,6 +136,125 @@ for b in CFG["books"]:
 <div class="body"><h3><a href="/{slug}/">{html.escape(b['card_title'])}</a></h3><p>{html.escape(b['card_text'])}</p>
 <a class="btn" href="/{slug}/">Get the free printable</a></div></div>""")
 
+# ---- free coloring pages: a hub plus one page per design, each with its own pin ----
+COL = CFG.get("coloring")
+if COL:
+    CDIR = ROOT / "coloring"
+    (DIST / "printables" / "coloring").mkdir()
+    hub = COL["slug"]
+    Image.open(ROOT / "covers" / COL["cover_front"]).convert("RGB").save(DIST / f"img/{hub}-cover.jpg", quality=85)
+    RED, GREEN, CREAM, GOLD = (150, 28, 34), (24, 72, 48), (252, 246, 232), (236, 196, 106)
+
+    def coloring_pin(p, out):
+        W, H = 1000, 1500
+        img = Image.new("RGB", (W, H), CREAM)
+        d = ImageDraw.Draw(img)
+        d.rectangle([0, 0, W, 330], fill=RED)
+        fm = ImageFont.truetype(F + "arialbd.ttf", 38)
+        fb = ImageFont.truetype(F + "georgiab.ttf", 66)
+        fs = ImageFont.truetype(F + "arial.ttf", 32)
+        tag = "FREE PRINTABLE"
+        tw = d.textlength(tag, font=fm)
+        d.rounded_rectangle([(W - tw) / 2 - 30, 40, (W + tw) / 2 + 30, 104], 16, fill=GOLD)
+        d.text(((W - tw) / 2, 50), tag, font=fm, fill=(30, 20, 10))
+        for k, line in enumerate([p["name"], "Christmas Coloring Page"]):
+            s = 66
+            while d.textlength(line, font=ImageFont.truetype(F + "georgiab.ttf", s)) > W - 80:
+                s -= 2
+            f = ImageFont.truetype(F + "georgiab.ttf", s)
+            d.text(((W - d.textlength(line, font=f)) / 2, 128 + k * 86), line, font=f, fill=CREAM)
+        line_art = Image.open(CDIR / "clean" / f"p{p['id']:02d}.png").convert("RGB")
+        if p.get("colored"):
+            col = Image.open(CDIR / p["colored"]).convert("RGB").resize((760, 760), Image.LANCZOS)
+            d.rounded_rectangle([110, 370, 890, 1150], 24, fill=(255, 255, 255), outline=GREEN, width=6)
+            img.paste(col, (120, 380))
+            la = line_art.copy(); la.thumbnail((330, 330), Image.LANCZOS)
+            bx, by = 40, 1000
+            d.rounded_rectangle([bx, by, bx + 350, by + 340], 18, fill=(255, 255, 255), outline=RED, width=6)
+            img.paste(la, (bx + (350 - la.width) // 2, by + (340 - la.height) // 2))
+            fl = ImageFont.truetype(F + "arialbd.ttf", 40)
+            d.text((430, 1190), "Print it & color it!", font=fl, fill=RED)
+            d.text((430, 1245), "Bold lines, big spaces", font=fs, fill=GREEN)
+        else:
+            la = line_art.copy(); la.thumbnail((820, 820), Image.LANCZOS)
+            d.rounded_rectangle([70, 370, 930, 1230], 24, fill=(255, 255, 255), outline=GREEN, width=6)
+            img.paste(la, ((W - la.width) // 2, 370 + (860 - la.height) // 2))
+            fl = ImageFont.truetype(F + "arialbd.ttf", 40)
+            d.text(((W - d.textlength("Print it & color it!", font=fl)) / 2, 1265), "Print it & color it!", font=fl, fill=RED)
+        d.rectangle([0, H - 150, W, H], fill=GREEN)
+        foot = "Bold & easy  •  For adults & seniors  •  Free PDF"
+        d.text(((W - d.textlength(foot, font=fs)) / 2, H - 130), foot, font=fs, fill=CREAM)
+        site = SITE_URL.replace("https://", "")
+        d.text(((W - d.textlength(site, font=fs)) / 2, H - 80), site, font=fs, fill=GOLD)
+        img.save(out, quality=90)
+
+    def hub_pin(out):
+        W, H = 1000, 1500
+        img = Image.new("RGB", (W, H), CREAM)
+        d = ImageDraw.Draw(img)
+        d.rectangle([0, 0, W, 360], fill=RED)
+        fb = ImageFont.truetype(F + "georgiab.ttf", 70)
+        fm = ImageFont.truetype(F + "arialbd.ttf", 38)
+        fs = ImageFont.truetype(F + "arial.ttf", 32)
+        n = len(COL["pages"])
+        for k, line in enumerate([f"{n} Free Christmas", "Coloring Pages", "for Adults"]):
+            d.text(((W - d.textlength(line, font=fb)) / 2, 40 + k * 100), line, font=fb, fill=CREAM)
+        tiles = [p for p in COL["pages"] if p.get("colored")][:6]
+        T, G = 300, 20
+        x0 = (W - 3 * T - 2 * G) // 2
+        for k, p in enumerate(tiles):
+            src = Image.open(CDIR / p["colored"]).convert("RGB") if k % 2 == 0 else Image.open(CDIR / "clean" / f"p{p['id']:02d}.png").convert("RGB")
+            src.thumbnail((T - 16, T - 16), Image.LANCZOS)
+            x = x0 + (k % 3) * (T + G); y = 400 + (k // 3) * (T + G)
+            d.rounded_rectangle([x, y, x + T, y + T], 16, fill=(255, 255, 255), outline=GREEN, width=4)
+            img.paste(src, (x + (T - src.width) // 2, y + (T - src.height) // 2))
+        tag = "PRINT FREE  •  BOLD & EASY"
+        d.text(((W - d.textlength(tag, font=fm)) / 2, 1100), tag, font=fm, fill=RED)
+        sub = "Thick lines and big spaces, made to relax"
+        d.text(((W - d.textlength(sub, font=fs)) / 2, 1160), sub, font=fs, fill=GREEN)
+        d.rectangle([0, H - 150, W, H], fill=GREEN)
+        site = SITE_URL.replace("https://", "")
+        d.text(((W - d.textlength(site, font=fm)) / 2, H - 100), site, font=fm, fill=GOLD)
+        img.save(out, quality=90)
+
+    book_btn = (f'<a class="btn alt" href="{html.escape(COL["amazon_url"])}" rel="noopener">Get all 50 designs on Amazon</a>'
+                if COL.get("amazon_url") else '<span class="note">The full 50-design book is coming soon on Amazon.</span>')
+    facts = "".join(f"<li>{html.escape(f)}</li>" for f in COL["facts"])
+    about = f"""<h2>Want all 50?</h2><div class="book"><div><img class="cover" src="/img/{hub}-cover.jpg" alt="Cover of {html.escape(COL['book_title'])}"></div>
+<div><p><strong>{html.escape(COL['book_title'])}</strong></p><ul class="facts">{facts}</ul><p>{book_btn}</p></div></div>"""
+    hub_cards = []
+    for p in COL["pages"]:
+        shutil.copy(ROOT / "printables" / "coloring" / p["pdf"], DIST / "printables" / "coloring" / p["pdf"])
+        la = Image.open(CDIR / "clean" / f"p{p['id']:02d}.png").convert("L"); la.thumbnail((700, 700), Image.LANCZOS)
+        la.convert("RGB").save(DIST / f"img/{p['slug']}.jpg", quality=88)
+        if p.get("colored"):
+            Image.open(CDIR / p["colored"]).convert("RGB").resize((700, 700), Image.LANCZOS).save(DIST / f"img/{p['slug']}-colored.jpg", quality=85)
+        coloring_pin(p, DIST / f"pins/{p['slug']}-pin.jpg")
+        col_html = (f'<p class="note">Colored in, it can look like this:</p><img src="/img/{p["slug"]}-colored.jpg" alt="{html.escape(p["alt"])}, colored in" loading="lazy" style="max-width:340px;width:100%;border-radius:8px;border:1px solid var(--line)">'
+                    if p.get("colored") else "")
+        body = f"""<h1>Free {html.escape(p['name'].lower())} Christmas coloring page</h1><p class="lede">{html.escape(p['text'])}</p>
+<div class="book"><div><img src="/img/{p['slug']}.jpg" alt="{html.escape(p['alt'])}, coloring page" style="width:100%;max-width:420px;background:#fff;border:1px solid var(--line);border-radius:8px"></div>
+<div><h2>Print it free</h2><p>A bold, easy design with thick lines, sized for US Letter paper. Free for personal, classroom and activity-group use.</p>
+<p><a class="btn" href="/printables/coloring/{p['pdf']}" download>Download the free PDF</a></p>{col_html}
+<p><a href="/{hub}/">See all {len(COL['pages'])} free Christmas coloring pages</a></p></div></div>{about}"""
+        title = f"Free {p['name']} Christmas Coloring Page for Adults (Printable PDF)"
+        desc = f"Free printable {p['name'].lower()} Christmas coloring page for adults and seniors. Bold, easy design with thick lines. Download the PDF."
+        (DIST / p["slug"]).mkdir()
+        (DIST / p["slug"] / "index.html").write_text(page(title, desc, body, f"{p['slug']}/", f"pins/{p['slug']}-pin.jpg"), encoding="utf-8")
+        urls.append(f"{p['slug']}/")
+        hub_cards.append(f"""<div class="card"><a href="/{p['slug']}/"><img src="/img/{p['slug']}.jpg" alt="{html.escape(p['alt'])}" loading="lazy" style="background:#fff"></a>
+<div class="body"><h3><a href="/{p['slug']}/">{html.escape(p['name'])}</a></h3><a class="btn" href="/printables/coloring/{p['pdf']}" download>Free PDF</a></div></div>""")
+    hub_pin(DIST / f"pins/{hub}-pin.jpg")
+    body = f"""<h1>{html.escape(COL['h1'])}</h1><p class="lede">{html.escape(COL['lede'])}</p>
+<div class="grid">{''.join(hub_cards)}</div>
+<p class="note">Printing tip: print at "actual size" (100%). Markers can bleed through thin paper, so card stock works best.</p>{about}"""
+    (DIST / hub).mkdir()
+    (DIST / hub / "index.html").write_text(page(COL["seo_title"], COL["seo_desc"], body, f"{hub}/", f"pins/{hub}-pin.jpg"), encoding="utf-8")
+    urls.append(f"{hub}/")
+    cards.insert(0, f"""<div class="card"><a href="/{hub}/"><img src="/img/{COL['pages'][1]['slug']}-colored.jpg" alt="Free Christmas coloring pages for adults" loading="lazy"></a>
+<div class="body"><h3><a href="/{hub}/">Christmas coloring pages</a></h3><p>{len(COL['pages'])} bold, easy holiday designs for adults and seniors. Free PDFs.</p>
+<a class="btn" href="/{hub}/">Get the free pages</a></div></div>""")
+
 home = f"""<h1>{html.escape(CFG['home_h1'])}</h1><p class="lede">{html.escape(CFG['home_lede'])}</p>
 <div class="grid">{''.join(cards)}</div>
 <h2>Made for real solvers</h2><p>{html.escape(CFG['home_about'])}</p>"""
