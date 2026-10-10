@@ -43,7 +43,8 @@
     240,
     204,
     120
-   ]
+   ],
+   "amazon_url": "https://www.amazon.com/dp/B0HLR7ZYQ4"
   },
   {
    "slug": "christmas-cryptograms-printable",
@@ -80,7 +81,8 @@
     232,
     196,
     110
-   ]
+   ],
+   "amazon_url": "https://www.amazon.com/dp/B0HLRGDP94"
   },
   {
    "slug": "cryptograms-large-print-printable",
@@ -189,14 +191,15 @@
     236,
     196,
     106
-   ]
+   ],
+   "amazon_url": "https://www.amazon.com/dp/B0HLXMVX1S"
   }
  ],
  "coloring": {
   "slug": "free-christmas-coloring-pages",
   "book_title": "Snowflakes & Cocoa: A Simple Christmas Coloring Book",
   "cover_front": "coloring_cover_front.png",
-  "amazon_url": "",
+  "amazon_url": "https://www.amazon.com/dp/B0HLXJLNCW",
   "seo_title": "Free Printable Christmas Coloring Pages for Adults & Seniors (Bold, Easy PDF)",
   "seo_desc": "Free printable Christmas coloring pages for adults and seniors: bold, easy designs with thick lines and big spaces. Cocoa, cozy animals, snow globes and more. Download the PDFs.",
   "h1": "Free printable Christmas coloring pages for adults",
