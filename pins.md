@@ -67,7 +67,7 @@ Cadence: post the hub pin + 3 page pins on day one, then 1-2 per day; re-pin eac
 | 14 | v2-whodunit-challenge.jpg | Can You Solve This Murder Mystery? Free Printable Logic Puzzle | Murder Mystery Logic Puzzles | /murder-mystery-logic-puzzle-printable/ |
 | 15 | v2-witty-challenge.jpg | Can You Crack This Cryptogram? Large Print Quote Puzzles | Cryptograms and Word Puzzles | /cryptograms-large-print-printable/ |
 | 16 | v2-xmas-cryptogram-challenge.jpg | Decode a Line From A Christmas Carol: Free Printable Cryptograms | Christmas Printables and Puzzles | /christmas-cryptograms-printable/ |
-| 17 | v2-wordsearch-bigletters.jpg | Big-Letter Christmas Word Search for Seniors (Free Printable) | Free Printable Puzzles for Seniors | /christmas-word-search-large-print/ |
+| 17 | v2-wordsearch-bigletters.jpg | Big-Letter Christmas Word Search for Seniors (Free Printable) | Cryptograms and Word Puzzles | /christmas-word-search-large-print/ |
 | 18 | v2-advent-day1.jpg | Advent Calendar for Puzzle Lovers: 24 Christmas Mysteries | Christmas Printables and Puzzles | /christmas-mystery-puzzle-printable/ |
 | 19 | v2-gifts-puzzle-lovers.jpg | Christmas Gift Ideas for Puzzle Lovers | Christmas Gifts for Puzzle Lovers (new) | / |
 | 20 | v2-stocking-stuffers-seniors.jpg | Stocking Stuffers for Grandma and Grandpa: Large Print Puzzle Books | Christmas Gifts for Puzzle Lovers (new) | / |
@@ -83,4 +83,4 @@ Descriptions
 20. Stocking stuffers for grandma and grandpa: large print word searches, cryptograms and a bold, easy coloring book. Easy-to-read puzzle gifts for seniors. Free printable samples on the site.
 21. Bold and easy Christmas coloring pages for seniors and adults: a puppy by the tree, a snow globe, gingerbread friends and a cozy cat. Thick lines, big spaces. Free printable PDFs.
 
-Cadence: 3 on day one (10-16), then 1 per day scheduled via "Publish at a later date".
+POSTED 2026-10-16: #14, #15, #19 live; #20 sched 10-17, #16 10-18, #18 10-19, #17 10-20, #21 10-21 (all 12:00 PM, all marked AI-Modified). New board "Christmas Gifts for Puzzle Lovers" created. NOTE: there is no "Free Printable Puzzles for Seniors" board on the profile (boards: Christmas Gifts for Puzzle Lovers, Christmas Printables and Puzzles, Cryptograms and Word Puzzles, Free Christmas Coloring Pages for Adults, Murder Mystery Logic Puzzles, + archived Jewelry/Tools). Pinterest tag search is flaky (stale results): tags skipped.
