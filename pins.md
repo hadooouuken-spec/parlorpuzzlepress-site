@@ -58,3 +58,29 @@ Descriptions
 13. Free Christmas moose coloring page: a smiling moose in a scarf with ornaments on its antlers. Thick, easy lines for adults and seniors. Free printable PDF.
 
 Cadence: post the hub pin + 3 page pins on day one, then 1-2 per day; re-pin each to Christmas Printables and Puzzles a few days later.
+
+
+## Wave 2 pins (added 2026-10-16) — make_pins_v2.py → dist/pins/v2-*.jpg (run AFTER build_site.py, which wipes dist/)
+
+| # | Image | Title | Board | Link |
+|---|---|---|---|---|
+| 14 | v2-whodunit-challenge.jpg | Can You Solve This Murder Mystery? Free Printable Logic Puzzle | Murder Mystery Logic Puzzles | /murder-mystery-logic-puzzle-printable/ |
+| 15 | v2-witty-challenge.jpg | Can You Crack This Cryptogram? Large Print Quote Puzzles | Cryptograms and Word Puzzles | /cryptograms-large-print-printable/ |
+| 16 | v2-xmas-cryptogram-challenge.jpg | Decode a Line From A Christmas Carol: Free Printable Cryptograms | Christmas Printables and Puzzles | /christmas-cryptograms-printable/ |
+| 17 | v2-wordsearch-bigletters.jpg | Big-Letter Christmas Word Search for Seniors (Free Printable) | Free Printable Puzzles for Seniors | /christmas-word-search-large-print/ |
+| 18 | v2-advent-day1.jpg | Advent Calendar for Puzzle Lovers: 24 Christmas Mysteries | Christmas Printables and Puzzles | /christmas-mystery-puzzle-printable/ |
+| 19 | v2-gifts-puzzle-lovers.jpg | Christmas Gift Ideas for Puzzle Lovers | Christmas Gifts for Puzzle Lovers (new) | / |
+| 20 | v2-stocking-stuffers-seniors.jpg | Stocking Stuffers for Grandma and Grandpa: Large Print Puzzle Books | Christmas Gifts for Puzzle Lovers (new) | / |
+| 21 | v2-coloring-seniors.jpg | Bold and Easy Christmas Coloring Pages for Seniors | Free Christmas Coloring Pages for Adults | /free-christmas-coloring-pages/ |
+
+Descriptions
+14. Can you name the killer? A free printable murder mystery logic puzzle: four suspects with motives, a page of real evidence and a logic grid to solve it. A fun puzzle night for adults.
+15. Large print cryptograms for adults: decode a famous quote from Mark Twain, Oscar Wilde, Benjamin Franklin or Ambrose Bierce, letter by letter. Hint letters included. Free printable sample.
+16. Christmas cryptograms in large print: crack a coded line from Charles Dickens' A Christmas Carol. Hint letters get you started. A cozy holiday brain teaser for adults and seniors. Free printable.
+17. Large print Christmas word search with big, bold letters that are easy on the eyes. Nostalgic holiday themes like Grandma's kitchen and Christmas cookies. Free printable puzzles for seniors.
+18. An Advent calendar for puzzle lovers: 24 cozy Christmas mysteries, one for each day from December 1 to 24. Family-friendly, never gory. Try the December 1 case free with its logic grid.
+19. Christmas gift ideas for puzzle lovers: murder mystery logic puzzles, an Advent mystery calendar, cryptograms and large print word searches. Try a free sample of each before you buy.
+20. Stocking stuffers for grandma and grandpa: large print word searches, cryptograms and a bold, easy coloring book. Easy-to-read puzzle gifts for seniors. Free printable samples on the site.
+21. Bold and easy Christmas coloring pages for seniors and adults: a puppy by the tree, a snow globe, gingerbread friends and a cozy cat. Thick lines, big spaces. Free printable PDFs.
+
+Cadence: 3 on day one (10-16), then 1 per day scheduled via "Publish at a later date".
