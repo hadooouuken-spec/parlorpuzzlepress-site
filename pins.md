@@ -86,3 +86,5 @@ Descriptions
 POSTED 2026-10-16: #14, #15, #19 live; #20 sched 10-17, #16 10-18, #18 10-19, #17 10-20, #21 10-21 (all 12:00 PM, all marked AI-Modified). New board "Christmas Gifts for Puzzle Lovers" created. NOTE: there is no "Free Printable Puzzles for Seniors" board on the profile (boards: Christmas Gifts for Puzzle Lovers, Christmas Printables and Puzzles, Cryptograms and Word Puzzles, Free Christmas Coloring Pages for Adults, Murder Mystery Logic Puzzles, + archived Jewelry/Tools). Pinterest tag search is flaky (stale results): tags skipped.
 
 POSTED 2026-10-25: Snowfall Sudoku pin (large-print-christmas-sudoku-printable) + Christmas Parlor pin (christmas-puzzles-for-seniors-printable), both live on "Christmas Printables and Puzzles", AI-Modified on. Pin builder layout moved: title y=218, description y=290, link y~383-405, board y~453, AI toggle y~715 (1568-wide frame).
+
+POSTED 2026-10-31: Whodunit Nonograms pin (murder-mystery-nonogram-printable) on "Murder Mystery Logic Puzzles", AI-Modified on.
