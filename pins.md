@@ -98,3 +98,19 @@ All marked AI-Modified.
 - v3-parlor-wordsearch: scheduled 11-10 12:00 PM, Christmas Printables and Puzzles, /christmas-puzzles-for-seniors-printable/
 - v3-advent-countdown: scheduled 11-12 12:00 PM, Christmas Printables and Puzzles, /christmas-mystery-puzzle-printable/
 - v3-nonogram-gift: scheduled 11-14 12:00 PM, Murder Mystery Logic Puzzles, /murder-mystery-nonogram-printable/
+
+## Daily Christmas batch (added 2026-11-07), make_pins_v4.py -> dist/pins/v4-*.jpg; details in pins_v4.json
+All scheduled for 12:00 PM, AI-Modified on. Fills the gaps so there is one new pin a day from 11-08 to 11-24 (v3 covers 11-08, 10, 12, 14; v4 the rest). Next batch due by about 11-20 to continue through 12-20.
+11-09 v4-under-15.jpg Christmas Gifts for Puzzle Lovers
+11-11 v4-cryptogram-code.jpg Christmas Printables and Puzzles
+11-13 v4-seniors-activities.jpg Christmas Printables and Puzzles
+11-15 v4-stocking-stuffers.jpg Christmas Gifts for Puzzle Lovers
+11-16 v4-whodunit-gift.jpg Murder Mystery Logic Puzzles
+11-17 v4-big-sudoku.jpg Cryptograms and Word Puzzles
+11-18 v4-word-search-gift.jpg Christmas Printables and Puzzles
+11-19 v4-coloring-gift.jpg Bold and Easy Coloring Pages
+11-20 v4-nonogram-howto.jpg Murder Mystery Logic Puzzles
+11-21 v4-witty-gift.jpg Cryptograms and Word Puzzles
+11-22 v4-family-night.jpg Christmas Printables and Puzzles
+11-23 v4-teacher-coworker.jpg Christmas Gifts for Puzzle Lovers
+11-24 v4-black-friday-free.jpg Christmas Printables and Puzzles

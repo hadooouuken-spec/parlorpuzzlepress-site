@@ -86,7 +86,7 @@ def puzzle_pin(out, bg, acc, tag, headline, pdf, pg, box, cov, foot):
 
 def covers_pin(out, bg, acc, tag, headline, covs, foot):
     img, d, y = frame(bg, acc, tag, headline)
-    per = 2 if len(covs) == 4 else 3
+    per = 2 if len(covs) in (2, 4) else 3
     cw, gap = (330, 40) if per == 2 else (285, 26)
     rows = [covs[:per], covs[per:]]
     hs = [max(int(cover(c, cw).height) for c in r) for r in rows if r]
