@@ -90,3 +90,11 @@ POSTED 2026-10-25: Snowfall Sudoku pin (large-print-christmas-sudoku-printable) 
 POSTED 2026-10-31: Whodunit Nonograms pin (murder-mystery-nonogram-printable) on "Murder Mystery Logic Puzzles", AI-Modified on.
 
 POSTED 2026-11-07: Big Parlor Sudoku pin on "Cryptograms and Word Puzzles"; Blossoms & Bonfires pin on NEW board "Bold and Easy Coloring Pages"; both AI-Modified on. Pinterest 30d: 941 impressions, 40 engagements, 12 saves, 9 outbound clicks.
+
+## Christmas round (added 2026-11-07), make_pins_v3.py -> dist/pins/v3-*.jpg
+All marked AI-Modified.
+- v3-gifts-seniors: LIVE 11-07, Christmas Gifts for Puzzle Lovers, link /
+- v3-snowfall-challenge: scheduled 11-08 12:00 PM, Christmas Printables and Puzzles, /large-print-christmas-sudoku-printable/
+- v3-parlor-wordsearch: scheduled 11-10 12:00 PM, Christmas Printables and Puzzles, /christmas-puzzles-for-seniors-printable/
+- v3-advent-countdown: scheduled 11-12 12:00 PM, Christmas Printables and Puzzles, /christmas-mystery-puzzle-printable/
+- v3-nonogram-gift: scheduled 11-14 12:00 PM, Murder Mystery Logic Puzzles, /murder-mystery-nonogram-printable/
