@@ -88,3 +88,5 @@ POSTED 2026-10-16: #14, #15, #19 live; #20 sched 10-17, #16 10-18, #18 10-19, #1
 POSTED 2026-10-25: Snowfall Sudoku pin (large-print-christmas-sudoku-printable) + Christmas Parlor pin (christmas-puzzles-for-seniors-printable), both live on "Christmas Printables and Puzzles", AI-Modified on. Pin builder layout moved: title y=218, description y=290, link y~383-405, board y~453, AI toggle y~715 (1568-wide frame).
 
 POSTED 2026-10-31: Whodunit Nonograms pin (murder-mystery-nonogram-printable) on "Murder Mystery Logic Puzzles", AI-Modified on.
+
+POSTED 2026-11-07: Big Parlor Sudoku pin on "Cryptograms and Word Puzzles"; Blossoms & Bonfires pin on NEW board "Bold and Easy Coloring Pages"; both AI-Modified on. Pinterest 30d: 941 impressions, 40 engagements, 12 saves, 9 outbound clicks.
