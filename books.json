@@ -386,6 +386,82 @@
     120
    ],
    "amazon_url": "https://www.amazon.com/dp/B0HPZH4ZG8"
+  },
+  {
+   "slug": "murder-mystery-logic-puzzles-book-2-printable",
+   "title": "Whodunit Logic Puzzles: Book 2",
+   "short": "murder mystery logic puzzle",
+   "sample_pdf": "whodunit-book-2-free-sample.pdf",
+   "cover_front": "cover_wd2_front.png",
+   "seo_title": "Free Printable Murder Mystery Logic Puzzle for Adults (Whodunit Book 2)",
+   "seo_desc": "A free printable cozy murder mystery logic puzzle: a body at the film studio, four suspects, real clues and a logic grid. Name the killer and the weapon.",
+   "h1": "Free printable murder mystery logic puzzle",
+   "lede": "A brand-new cozy case from Whodunit Logic Puzzles: Book 2. Read the clues, fill in the grid, and name the killer and the weapon.",
+   "sample_text": "Case 1 from the book, with its solving grid.",
+   "facts": [
+    "80 brand-new murder mysteries in 16 new settings",
+    "Easy, Medium and Hard cases, with a worked example",
+    "A solving grid facing every case",
+    "Every case checked by computer: one solution, no guessing",
+    "Step-by-step solutions at the back"
+   ],
+   "card_title": "Murder mystery logic puzzle (Book 2)",
+   "card_text": "A new cozy case with a logic grid. Free to print.",
+   "pin_headline": [
+    "Can You Solve",
+    "This Murder",
+    "Mystery?"
+   ],
+   "pin_footer": "Free printable case • Logic grid included",
+   "pin_bg": [
+    14,
+    22,
+    44
+   ],
+   "pin_accent": [
+    226,
+    182,
+    92
+   ],
+   "amazon_url": "https://www.amazon.com/dp/B0HQW3X15N"
+  },
+  {
+   "slug": "nostalgic-word-search-large-print-printable",
+   "title": "Lemonade & Jukeboxes: Large Print Word Search",
+   "short": "nostalgic large print word search",
+   "sample_pdf": "lemonade-jukeboxes-free-sample.pdf",
+   "cover_front": "cover_mem_front.png",
+   "seo_title": "Free Printable Nostalgic Large Print Word Search for Seniors (PDF)",
+   "seo_desc": "Free printable large print word searches for seniors with nostalgic themes: the soda fountain and drive-in movies. Bold letters, answers included.",
+   "h1": "Free printable nostalgic word search for seniors",
+   "lede": "Two large print word searches full of memories, the soda fountain and the drive-in, with bold letters that are easy on the eyes. Answers included.",
+   "sample_text": "The How to Play page, the first two puzzles and the answers.",
+   "facts": [
+    "80 nostalgic word searches, one big puzzle per page",
+    "Bold 20-point letters and only 16 words per puzzle",
+    "Easy to hard: across and down first, then diagonals, then any direction",
+    "Every word checked by computer to appear exactly once",
+    "Large answer keys at the back"
+   ],
+   "card_title": "Nostalgic word search",
+   "card_text": "Two big-print memory lane word searches, with answers. Free to print.",
+   "pin_headline": [
+    "Nostalgic",
+    "Word Search",
+    "to Print"
+   ],
+   "pin_footer": "Large print • For seniors • Answers included",
+   "pin_bg": [
+    22,
+    78,
+    76
+   ],
+   "pin_accent": [
+    244,
+    206,
+    110
+   ],
+   "amazon_url": "https://www.amazon.com/dp/B0HQX8S475"
   }
  ],
  "coloring": {
