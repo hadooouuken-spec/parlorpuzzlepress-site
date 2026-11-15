@@ -114,3 +114,16 @@ All scheduled for 12:00 PM, AI-Modified on. Fills the gaps so there is one new p
 11-22 v4-family-night.jpg Christmas Printables and Puzzles
 11-23 v4-teacher-coworker.jpg Christmas Gifts for Puzzle Lovers
 11-24 v4-black-friday-free.jpg Christmas Printables and Puzzles
+
+## Batch v5 (added 2026-11-15), make_pins_v5.py -> dist/pins/v5-*.jpg; details in pins_v5.json
+All scheduled for 12:00 PM, AI-Modified on. Includes the first pins for Whodunit Book 2 and Lemonade & Jukeboxes. Scheduled list checked on the profile: 19 pending pins (v4 Nov 16-24 + v5). Next batch due by about Dec 5 to cover Dec 10-20.
+11-16 v5-whodunit2-new.jpg Murder Mystery Logic Puzzles
+11-18 v5-lemonade-new.jpg Cryptograms and Word Puzzles
+11-25 v5-thanksgiving-quiet.jpg Christmas Gifts for Puzzle Lovers
+11-27 v5-gifts-grandparents.jpg Christmas Gifts for Puzzle Lovers
+11-29 v5-mystery-series.jpg Murder Mystery Logic Puzzles
+12-01 v5-advent-today.jpg Christmas Printables and Puzzles
+12-03 v5-sudoku-seniors.jpg Christmas Printables and Puzzles
+12-05 v5-word-lovers-xmas.jpg Christmas Gifts for Puzzle Lovers
+12-07 v5-coloring-winter.jpg Bold and Easy Coloring Pages
+12-09 v5-last-minute.jpg Christmas Gifts for Puzzle Lovers
