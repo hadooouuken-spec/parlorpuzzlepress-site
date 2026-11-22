@@ -462,6 +462,82 @@
     110
    ],
    "amazon_url": "https://www.amazon.com/dp/B0HQX8S475"
+  },
+  {
+   "slug": "winter-sudoku-large-print-printable",
+   "title": "Woodstove Sudoku: Large Print Winter Sudoku",
+   "short": "large print winter sudoku",
+   "sample_pdf": "woodstove-sudoku-free-sample.pdf",
+   "cover_front": "cover_win_front.png",
+   "seo_title": "Free Printable Large Print Winter Sudoku for Seniors (PDF)",
+   "seo_desc": "Free printable large print winter sudoku for adults and seniors: big clear digits, one puzzle per page, with a how-to page, solving tips and answers.",
+   "h1": "Free printable large print winter sudoku",
+   "lede": "Cozy winter sudoku with big, clear digits and thick box lines, one puzzle per page. Pull your chair up to the woodstove and sharpen the pencil.",
+   "sample_text": "The How to Play page, the solving tips page, the first two Easy puzzles and their answers.",
+   "facts": [
+    "160 winter-themed sudoku, one big puzzle per page",
+    "Four levels: 40 Easy, 40 Medium, 40 Hard and 40 Very Hard",
+    "Large digits, roomy squares and thick 3 x 3 box lines",
+    "Every puzzle has exactly one solution, reachable by logic alone",
+    "Plain-English tips and all the answers at the back"
+   ],
+   "card_title": "Winter sudoku",
+   "card_text": "Big-print winter sudoku with tips and answers. Free 2-puzzle sample.",
+   "pin_headline": [
+    "Large Print",
+    "Winter Sudoku",
+    "to Print"
+   ],
+   "pin_footer": "One puzzle per page • Easy to Very Hard • Answers",
+   "pin_bg": [
+    70,
+    34,
+    24
+   ],
+   "pin_accent": [
+    240,
+    196,
+    120
+   ],
+   "amazon_url": "https://www.amazon.com/dp/B0HRX19K76"
+  },
+  {
+   "slug": "garden-word-search-large-print-printable",
+   "title": "Robins & Roses: Large Print Word Search",
+   "short": "large print garden word search",
+   "sample_pdf": "robins-roses-free-sample.pdf",
+   "cover_front": "cover_gar_front.png",
+   "seo_title": "Free Printable Large Print Garden Word Search for Seniors (PDF)",
+   "seo_desc": "Free printable large print word searches about gardens and birds, for adults and seniors. Bold 20-point letters, 16 words per puzzle, answers included.",
+   "h1": "Free printable large print garden word search",
+   "lede": "Two large print word searches for garden and bird lovers, spring bulbs and the potting shed, with bold letters that are easy on the eyes. Answers included.",
+   "sample_text": "The How to Play page, the first two puzzles and the answers.",
+   "facts": [
+    "80 garden, flower and bird word searches, one big puzzle per page",
+    "Bold 20-point letters and only 16 words per puzzle",
+    "Easy to hard: across and down first, then diagonals, then any direction",
+    "Every word checked by computer to appear exactly once",
+    "Large answer keys at the back"
+   ],
+   "card_title": "Garden word search",
+   "card_text": "Two big-print garden and bird word searches, with answers. Free to print.",
+   "pin_headline": [
+    "Garden",
+    "Word Search",
+    "to Print"
+   ],
+   "pin_footer": "Large print • For seniors • Answers included",
+   "pin_bg": [
+    36,
+    70,
+    44
+   ],
+   "pin_accent": [
+    244,
+    196,
+    200
+   ],
+   "amazon_url": "https://www.amazon.com/dp/B0HS17S6JN"
   }
  ],
  "coloring": {
