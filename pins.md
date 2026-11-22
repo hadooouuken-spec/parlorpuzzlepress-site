@@ -127,3 +127,8 @@ All scheduled for 12:00 PM, AI-Modified on. Includes the first pins for Whodunit
 12-05 v5-word-lovers-xmas.jpg Christmas Gifts for Puzzle Lovers
 12-07 v5-coloring-winter.jpg Bold and Easy Coloring Pages
 12-09 v5-last-minute.jpg Christmas Gifts for Puzzle Lovers
+
+## 2026-11-22: new-book pins (published live, board Cryptograms and Word Puzzles, AI-modified on)
+- winter-sudoku-large-print-printable-pin.jpg: "Large Print Winter Sudoku for Seniors (Free Printable)" -> /winter-sudoku-large-print-printable/
+- garden-word-search-large-print-printable-pin.jpg: "Large Print Garden Word Search for Seniors (Free Printable)" -> /garden-word-search-large-print-printable/
+Pinterest 30d to 11-20: 1.61k impressions (+513%), 48 engagements, 9 outbound clicks.
