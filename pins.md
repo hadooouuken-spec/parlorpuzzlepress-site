@@ -132,3 +132,7 @@ All scheduled for 12:00 PM, AI-Modified on. Includes the first pins for Whodunit
 - winter-sudoku-large-print-printable-pin.jpg: "Large Print Winter Sudoku for Seniors (Free Printable)" -> /winter-sudoku-large-print-printable/
 - garden-word-search-large-print-printable-pin.jpg: "Large Print Garden Word Search for Seniors (Free Printable)" -> /garden-word-search-large-print-printable/
 Pinterest 30d to 11-20: 1.61k impressions (+513%), 48 engagements, 9 outbound clicks.
+
+## 2026-11-22: v6 batch (make_pins_v6.py, pins_v6.json), scheduled 12:00 PM, AI-modified on
+12-10 v6-woodstove-evening (Cryptograms and Word Puzzles) · 12-11 v6-gardener-gift (Gifts) · 12-12 v6-last-minute (Gifts) · 12-13 v6-grandma-word-search (Gifts) · 12-14 v6-christmas-eve-case (Christmas Printables) · 12-15 v6-snow-day-seniors (Christmas Printables) · 12-16 v6-mystery-series (Murder Mystery) · 12-17 v6-witty-quotes (Cryptograms) · 12-18 v6-calm-coloring (Coloring) · 12-19 v6-snowfall-sudoku (Christmas Printables) · 12-20 v6-new-year-puzzles (Gifts)
+Profile showed 21 scheduled pins after this (10 older + 11 new). Date field gotcha: type the date twice (triple-click, type, Enter, repeat); first entry often ignored.
